@@ -1,42 +1,39 @@
 <!doctype html>
 <html lang="tr">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="index, follow">
-  <meta name="description" content="PawDoku Puzzle Android uygulamasının gizlilik politikası.">
-  <title>PawDoku Puzzle — Gizlilik Politikası</title>
-  <style>
-    :root { color-scheme: light; }
-    body { margin: 0; background: #f6f7fb; color: #202432; font: 16px/1.7 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; }
-    main { max-width: 900px; margin: 36px auto; padding: 36px; background: #fff; border-radius: 16px; box-shadow: 0 8px 32px #18213a12; }
-    h1,h2,h3 { line-height: 1.3; color: #18213a; }
-    h1 { font-size: 2rem; margin-top: 0; }
-    h2 { margin-top: 2.2em; padding-bottom: .35em; border-bottom: 1px solid #e7e9ef; }
-    h3 { margin-top: 1.5em; }
-    a { color: #2459bd; overflow-wrap: anywhere; }
-    li { margin: .35em 0; }
-    .meta { color: #5d6474; font-size: .94rem; }
-    .notice { background: #f1f5ff; border-left: 4px solid #5578d8; padding: 12px 16px; border-radius: 8px; }
-    @media (max-width: 640px) { main { margin: 0; padding: 22px 18px; border-radius: 0; } h1 { font-size: 1.65rem; } }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>PawDoku Puzzle — Gizlilik Politikası</title>
+<style>
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #f5f7fb; color: #202635; font-family: Arial, Helvetica, sans-serif; line-height: 1.65; }
+main { max-width: 900px; margin: 32px auto; padding: 36px 42px; background: #fff; border-radius: 14px; box-shadow: 0 5px 24px rgba(25,35,55,.07); }
+h1 { font-size: 2rem; line-height: 1.25; margin: 0 0 12px; color: #172033; }
+h2 { margin: 34px 0 12px; padding-bottom: 7px; border-bottom: 1px solid #e5e9f0; font-size: 1.4rem; color: #172033; }
+h3 { margin: 24px 0 8px; font-size: 1.08rem; color: #26344d; }
+p { margin: 10px 0; }
+ul { padding-left: 24px; margin: 10px 0 18px; }
+li { margin: 7px 0; }
+a { color: #1559b7; overflow-wrap: anywhere; }
+code { background: #f0f2f6; padding: 2px 5px; border-radius: 4px; }
+@media (max-width: 640px) { main { margin: 0; padding: 24px 18px; border-radius: 0; } h1 { font-size: 1.65rem; } }
+</style>
 </head>
 <body>
 <main>
 <h1>PawDoku Puzzle — Gizlilik Politikası</h1>
-<p class="meta">Son inceleme tarihi: 4 Kasım 2026</p>
-
+<p>Son inceleme tarihi: 4 Kasım 2026</p>
 <h2>1. Kapsam ve iletişim</h2>
 <p>Bu politika, PawDoku Puzzle adlı Android bulmaca uygulamasında (<code>com.pawdoku.puzzle</code>) bilgilerin nasıl işlendiğini açıklar. Ayrı web uygulamasının tamamını kapsamaz; web uygulamasından alınan bir ilerleme dosyasının Android'e aktarılması aşağıda açıklanır.</p>
 <p>Gizlilikle ilgili sorular, veri erişimi ve silme talepleri için geliştiriciye <a href="mailto:magunacimert.mm@gmail.com">magunacimert.mm@gmail.com</a> adresinden ulaşabilirsiniz.</p>
 <p>Geliştirici adı: MAGUNACI.</p>
 <p>Uygulamanın mevcut sürümünde PawDoku hesabı oluşturma, e-posta ile giriş veya sosyal hesapla giriş bulunmaz. Google Play hesabınız ve RevenueCat'in uygulama kullanıcı kimliği, bir PawDoku kullanıcı hesabı oluşturduğunuz anlamına gelmez.</p>
-
 <h2>2. Mevcut özelliklerin durumu</h2>
-<p>Oyun ve dijital içerik seçimleri yerel olarak saklanacak şekilde uygulanmıştır. Kodda Google AdMob ödüllü reklamları, Google User Messaging Platform (UMP), RevenueCat ve Google Play üzerinden satın alma/geri yükleme desteği bulunur. İlk Android sürümünde reklam gösterimi, ödüllü reklamlar ve gerçek para ile uygulama içi satın almalar devre dışı bırakılmıştır.</p>
-<p>Bir SDK'nın uygulamada bulunması, tüm özelliklerinin sürekli veri topladığı anlamına gelmez. Buna karşılık, özelliklerin kullanıcıya kapalı olması da yapılandırılmış bir SDK'nın hiç ağ bağlantısı kurmadığını garanti etmez. Kod, Android SDK anahtarı varsa RevenueCat'i yapılandırmayı ve açılışta/ön plana gelişte müşteri bilgisini sorgulamayı deneyebilir. SDK önbelleği, bağlantı hataları ve native modül kullanılabilirliği nedeniyle her sorgunun yeni bir sunucu bağlantısı oluşturduğu söylenemez.</p>
-<p>Kapalı reklam modunda JavaScript katmanındaki UMP hazırlığı erken döner; ödüllü reklam ve gizlilik formu isteği engellenir. Bunun tüm native SDK başlangıç davranışlarının veya tüm ağ trafiğinin kapalı olduğunu kanıtlamadığı unutulmamalıdır. Test reklamları da ağ iletişimi içerebilir.</p>
-
+<p>Oyun ve dijital içerik seçimleri yerel olarak saklanacak şekilde uygulanmıştır. Kodda Google AdMob ödüllü reklamları, Google User Messaging Platform (UMP), RevenueCat ve Google Play üzerinden satın alma/geri yükleme desteği bulunur. İlk Android sürümünde uygulama kodundan reklam gösterimi, ödüllü reklamlar, UMP rıza ve gizlilik formu çağrıları ile RevenueCat yapılandırması, müşteri bilgisi ve Offering sorguları, satın alma ve satın alma geri yükleme çağrıları devre dışı bırakılmıştır. Bu kısıtlama tüm yaş grupları için geçerlidir.</p>
+<p>İlk Android sürümünde RevenueCat anahtarı yapılandırılmış olsa bile uygulama kodu RevenueCat'i başlatmaz; açılışta veya uygulama ön plana geldiğinde müşteri bilgisi sorgulamaz. Yeni reklam oturumu oluşturulmaz ve yeni reklam ödülü kazanma akışı başlatılmaz. Daha önce doğrulanmış ödüllerin kullanıcı tarafından istenen kontrolü bundan ayrıdır ve aşağıda açıklanır.</p>
+<p>AdMob, UMP ve RevenueCat native SDK bileşenleri projede bulunmaya devam eder. JavaScript katmanındaki çağrıların engellenmesi, tüm native SDK başlangıçlarının, yerel teknik işlemlerin veya ağ iletişiminin kapandığı anlamına gelmez. Bu SDK'ların başlangıç ve ağ davranışları gerçek Android cihazında bu inceleme kapsamında doğrulanmamıştır; hiçbir veri işlemedikleri iddia edilmez.</p>
 <h2>3. Hangi bilgiler işlenir?</h2>
 <h3>3.1. Cihazda tutulan oyun ve profil bilgileri</h3>
 <p>Uygulama aşağıdaki bilgileri cihazın uygulamaya ayrılan yerel depolama alanında tutar:</p>
@@ -46,81 +43,74 @@
 <li>Toplam puan, tamamlanan bulmaca kimlikleri, günlük seri, en uzun seri, son günlük tamamlama tarihi ve çözülen en büyük tahta boyutu.</li>
 <li>Titreşim ve azaltılmış hareket tercihleri.</li>
 <li>Seçilen tema ve avatar; ayrı bulmaca paketlerindeki tamamlanma ve devam eden oyun bilgileri.</li>
-<li>Önceki veya gelecekteki özelliklerle ilişkili olabilecek yerel ödül işlem kimlikleri ve kullanılmamış ipucu kredileri.</li>
+<li>Daha önce teslim alınmış ödüllerin yerel işlem kimlikleri ve kullanılmamış ipucu kredileri.</li>
+<li>Kullanıcının kaydetmeyi seçtiği yaş bandı veya yaşını belirtmediğini ifade eden UNKNOWN tercihi. Bu kayıt doğum tarihi veya kimlik belgesi içermez.</li>
 </ul>
 <p>Bu oyun profili gerçek ad, telefon, doğum tarihi veya e-posta alanı içermez. Avatar seçimi, hazır uygulama görselleri arasından yapılır; kullanıcı fotoğrafı yükleme özelliği değildir.</p>
-<p>İncelenen uygulama kodu ana oyun ilerlemesini, puanları, tema/avatar seçimini veya paket ilerlemesini geliştiricinin sunucusuna otomatik olarak yüklemez. İşletim sisteminin yedekleme ve cihaz aktarımı davranışları bundan ayrıdır.</p>
-
+<p>İncelenen uygulama kodu ana oyun ilerlemesini, puanları, tema/avatar seçimini veya paket ilerlemesini geliştiricinin sunucusuna otomatik olarak yüklemez. Yaş bandı da sunucuya veya reklam/satın alma hizmetlerine gönderilmez. İşletim sisteminin yedekleme ve cihaz aktarımı davranışları bundan ayrıdır.</p>
 <h3>3.2. JSON dosyasıyla ilerleme aktarımı</h3>
 <p>Android uygulamasında kullanıcı tarafından seçilen PawDoku ilerleme JSON dosyasını içe aktarma özelliği vardır. Dosya, sistem dosya seçicisiyle seçilir; uygulama dosyayı önbelleğine kopyalayarak okuyabilir. Dosyanın biçimi ve boyutu kontrol edilir; geçerli ilerleme mevcut yerel kayıtlarla birleştirilir.</p>
 <p>İçe aktarılan bilgiler dosyanın içeriğine göre oyun tahtası, ilerleme, profil istatistikleri ve dışa aktarım zamanını içerebilir. Uygulama bu işlem için dosyayı geliştiricinin sunucusuna yüklemez.</p>
 <p>İncelenen Android arayüzünde JSON dışa aktarma veya paylaşma işlevi bulunmaz. Android'e alınan dosya ayrı web uygulamasından oluşturulmuş olabilir. Dosyayı bulut depolamadan seçmeniz ya da başka bir hizmetle paylaşmanız halinde, o hizmetin kendi veri işleme koşulları geçerlidir. Dosya düz metin JSON olduğundan şifreli bir yedek gibi değerlendirilmemelidir.</p>
-
 <h3>3.3. Google AdMob ve UMP</h3>
-<p>İlk Android sürümünde reklam gösterimi ve ödüllü reklam özellikleri devre dışıdır. Uygulamada Google Mobile Ads SDK ve Google User Messaging Platform (UMP) bileşenleri bulunabilir. Özelliklerin kapalı olması, SDK'ların tüm teknik başlangıç ve ağ davranışlarının devre dışı olduğu anlamına gelmez.</p>
-<p>Google'ın Google Mobile Ads SDK açıklamasına göre SDK çalıştığında IP adresi (yaklaşık konum çıkarımı dahil), uygulama etkileşimleri, tanılama bilgileri, Android reklam kimliği, App Set ID ve ilgili diğer tanımlayıcılar gibi veriler işlenebilir. İşleme; reklam sunumu, analiz, güvenlik ve kötüye kullanımı önleme amaçlarını içerebilir. Verilerin işlenmesi cihaz, SDK, manifest, bölge ve gizlilik ayarlarına bağlıdır.</p>
-<p>UMP, ilgili bölge ve Google yapılandırmasına göre gizlilik mesajlarını ve rıza tercihlerini yönetir. UMP'nin uygulamada bulunması, çocuklara uygun reklam yapılandırmasının tamamlandığı veya SDK'nın hiçbir veri işlemediği anlamına gelmez. Kişiselleştirilmemiş reklamlar da teknik ve güvenlik amaçlı veri işleme içerebilir.</p>
+<p>İlk Android sürümünde uygulama kodundaki reklam gösterimi, ödüllü reklam, <strong>açık <code>MobileAds.initialize</code> çağrısı</strong> ve UMP rıza/gizlilik formu çağrıları devre dışıdır. Ancak Android native SDK bileşenlerinin otomatik başlangıç davranışı ayrıca doğrulanmamıştır. Uygulamada Google Mobile Ads SDK ve Google User Messaging Platform (UMP) native bileşenleri bulunur. Bu bileşenlerin gerçek cihazdaki başlangıç ve ağ davranışları doğrulanmadığından, özelliklerin kapalı olması bütün teknik veri işlemlerinin durduğu şeklinde yorumlanmamalıdır.</p>
+<p>Google'ın Google Mobile Ads SDK açıklamasına göre SDK çalıştığında IP adresi (yaklaşık konum çıkarımı dahil), uygulama etkileşimleri, tanılama bilgileri, Android reklam kimliği, App Set ID ve ilgili diğer tanımlayıcılar gibi veriler işlenebilir. İşleme; reklam sunumu, analiz, güvenlik ve kötüye kullanımı önleme amaçlarını içerebilir. Verilerin işlenmesi cihaz, SDK, manifest, bölge ve gizlilik ayarlarına bağlıdır. Bu açıklama, listelenen verilerin ilk Android sürümünde fiilen gönderildiğinin cihaz üzerinde doğrulandığı anlamına gelmez.</p>
+<p>UMP, ilgili bölge ve Google yapılandırmasına göre gizlilik mesajlarını ve rıza tercihlerini yönetmek için projede bulunur; ilk Android sürümünde uygulama kodu bu akışı başlatmaz. UMP'nin uygulamada bulunması, çocuklara uygun reklam yapılandırmasının tamamlandığı veya SDK'nın hiçbir veri işlemediği anlamına gelmez. Kişiselleştirilmemiş reklamlar da teknik ve güvenlik amaçlı veri işleme içerebilir.</p>
 <p>Uygulamada ayrı bir Firebase Analytics veya bağımsız çökme analizi entegrasyonu tespit edilmemiştir. Bu durum Google reklam SDK'sının kendi tanılama ve reklam analizlerini işlemediği anlamına gelmez.</p>
-
 <h3>3.4. RevenueCat ve Google Play satın alma bilgileri</h3>
-<p>RevenueCat, Google Play üzerinden sunulabilecek satın almaların doğrulanması, erişim haklarının belirlenmesi ve satın alımların geri yüklenmesi için projeye entegre edilmiştir. İlk Android sürümünde gerçek para ile uygulama içi satın alma işlemleri devre dışıdır.</p>
-<p>SDK yapılandırıldığında RevenueCat'in oluşturduğu uygulama kullanıcı kimliği, uygulama/SDK ve platform bilgileri ile müşteri/erişim durumu işlenebilir. Satın alma veya geri yükleme özelliği kullanıma açılırsa ürün kimlikleri, satın alma geçmişi, mağaza işlem/satın alma belirteçleri, abonelik durumu ve süreleri gibi bilgiler RevenueCat ve Google Play tarafından işlenebilir.</p>
-<p>Uygulama RevenueCat yapılandırmasına özel bir kullanıcı hesabı kimliği vermez; SDK'nın varsayılan anonim uygulama kullanıcı kimliği mekanizmasına dayanır. İncelenen kod RevenueCat'e ad, e-posta, telefon veya özel müşteri niteliği göndermez. Bu tespit, SDK'nın kendi teknik veri işlemesini kapsayan “hiç veri toplanmaz” garantisi değildir.</p>
+<p>RevenueCat, Google Play üzerinden sunulabilecek satın almaların doğrulanması, erişim haklarının belirlenmesi ve satın alımların geri yüklenmesi için projeye entegre edilmiştir. İlk Android sürümünde uygulama kodu RevenueCat'i yapılandırmaz; müşteri bilgisi, Offering, satın alma veya satın alma geri yükleme çağrısı yapmaz. Gerçek para ile uygulama içi satın alma işlemleri kapalıdır.</p>
+<p>RevenueCat entegrasyonu ileride kullanıma açılırsa, SDK yapılandırıldığında RevenueCat'in oluşturduğu uygulama kullanıcı kimliği, uygulama/SDK ve platform bilgileri ile müşteri/erişim durumu işlenebilir. Satın alma veya geri yükleme kullanıldığında ürün kimlikleri, satın alma geçmişi, mağaza işlem/satın alma belirteçleri, abonelik durumu ve süreleri gibi bilgiler RevenueCat ve Google Play tarafından işlenebilir. Bu olası işleyiş, ilk Android sürümünde bu çağrıların etkin olduğu anlamına gelmez.</p>
+<p>Projede bulunan ve ilk Android sürümünde devre dışı olan RevenueCat yapılandırma kodu özel bir kullanıcı hesabı kimliği vermez; SDK'nın varsayılan anonim uygulama kullanıcı kimliği mekanizmasına dayanır. İncelenen kod RevenueCat'e ad, e-posta, telefon veya özel müşteri niteliği göndermez. Bu tespit, native SDK'nın kendi teknik veri işlemesini kapsayan “hiç veri toplanmaz” garantisi değildir. Önceden mevcut olabilecek sağlayıcı kayıtlarının silindiği anlamına da gelmez.</p>
 <p>Kart numarası veya banka hesabı bilgilerinizi PawDoku arayüzüne girmeniz istenmez. Mağaza ödemeleri kullanıma açılırsa ödeme bilgileri Google Play'in kendi ödeme sistemi tarafından işlenir.</p>
-
 <h3>3.5. Reklam ödüllerinin sunucu doğrulaması</h3>
-<p>Projede reklam ödülü altyapısı ve sunucu doğrulaması kodu bulunur. İlk Android sürümünde reklam ve ödüllü reklam özellikleri kapalıdır. İleride bu özellikler etkinleştirilirse rastgele kurulum kimliği, ödül türü, tek kullanımlık oturum kimliği, oturum zamanları ve Google tarafından imzalanmış doğrulama isteğindeki işlem/doğrulama alanları işlenebilir.</p>
-<p>Bu kimlikler IMEI veya donanım seri numarası değildir; ancak teknik olarak başka bilgilerle ilişkilendirilebilir. Altyapı kodunun bulunması, gerçek Google SSV akışının üretimde canlı olarak çalıştığının kanıtı değildir.</p>
-
+<p>Projede reklam ödülü altyapısı ve sunucu doğrulaması (SSV) kodu bulunur. İlk Android sürümünde yeni reklam isteği, yeni reklam oturumu ve yeni reklam ödülü kazanma akışları kapalıdır. Bununla birlikte, daha önce doğrulanmış ödüller için Ayarlar ekranında “Eski ödüllerimi kontrol et” seçeneği bulunur. Kontrol yalnızca kullanıcı bu düğmeye açıkça dokunduğunda başlar; uygulama açılışında, oyun ekranına girişte veya ön plana dönüşte otomatik bekleyen ödül sorgusu yapılmaz.</p>
+<p>Kontrol için yalnızca daha önce cihazda saklanmış kurulum kimliği kullanılır. Kullanılabilir kayıtlı kimlik yoksa yeni UUID veya kurulum kimliği oluşturulmaz ve sunucuya kontrol isteği gönderilmez. Kayıtlı kimlik ve yapılandırılmış HTTPS API adresi varsa, kurulum kimliği bekleyen ödül sorgusunun sorgu parametresinde geliştiricinin sunucusuna gönderilir. Yaş bandı bu isteğe eklenmez. Bu işlem reklam açmaz ve yeni reklam oturumu oluşturmaz.</p>
+<p>Sunucu yanıtı ödül işlem kimliğini ve ödül türünü içerir. Ödülün doğrulanması ve teslimi için ilgili işlem kimliğiyle ek sunucu iletişimi yapılabilir. Uygulama doğrulanmış ipucu kredisini ve işlem kaydını kalıcı yerel depolamaya başarıyla yazdıktan sonra, işlem kimliği ile kurulum kimliğini içeren teslim bildirimi (ACK) gönderir. Kontrol başarısız olursa mevcut kayıtlar veya ipucu bakiyesi silinmez. Kalıcı yerel kayıt başarılı olup ACK başarısız olduğunda, sonraki manuel kontrolde işlem geçmişi aynı ödülün yeniden eklenmesini engellemek için kullanılır.</p>
+<p>Kurulum kimliği rastgele bir uygulama kimliğidir; IMEI veya donanım seri numarası değildir. Gerçek hesap, kimlik veya ebeveyn doğrulaması da değildir. İşlem kimlikleri ve bağlantı bilgileriyle ilişkilendirilebildiğinden tamamen anonim veri olarak değerlendirilmemelidir. Sunucu bağlantıyı işlerken IP adresi ve protokol bilgilerini de görebilir. Uygulamayı silmek veya cihaz değiştirmek yerel kimliği kaybettirebilir; hesap tabanlı ödül taşıma garantisi verilmez.</p>
+<p>Sunucu altyapısında önceki oturumlara ilişkin kurulum kimliği, ödül türü, tek kullanımlık oturum kimliği, oluşturulma ve bitiş zamanları, Google işlem kimliği, kazanma/doğrulama ve teslim bildirimi zamanları için kayıt alanları bulunur. İleride yeni reklam akışı açılırsa Google'ın imzalı SSV isteğindeki reklam birimi, ödül türü/miktarı, işlem zamanı, imza ve anahtar kimliği gibi doğrulama alanları da işlenebilir. İlk Android sürümündeki manuel kontrol, yeni bir Google reklamı veya yeni SSV oturumu başlatmaz. Altyapı kodunun bulunması, gerçek Google SSV akışının üretimde canlı olarak çalıştığının kanıtı değildir.</p>
 <h3>3.6. Teknik bağlantılar ve destek yazışmaları</h3>
-<p>Ağ bağlantısı kurulduğunda ilgili hizmet sağlayıcı bağlantıyı işlemek için IP adresi ve protokol bilgilerini görebilir. Sunucu günlükleri istek kimliği, yöntem, sorgu parametreleri çıkarılmış URL yolu ve yanıt durumu gibi teknik bilgileri içerebilir. Hata, barındırma ve yedek günlüklerinin tüm alanları için doğrulanmış tek bir saklama veya maskeleme süresi bulunmamaktadır.</p>
+<p>Ağ bağlantısı kurulduğunda ilgili hizmet sağlayıcı bağlantıyı işlemek için IP adresi ve protokol bilgilerini görebilir. Sunucu günlükleri istek kimliği, yöntem, sorgu parametreleri çıkarılmış URL yolu ve yanıt durumu gibi teknik bilgileri içerebilir. Sorgu parametrelerinin çıkarılması, teslim bildirimi gibi URL yollarında bulunan ödül işlem kimliklerinin de gizlendiği anlamına gelmez. Hata, barındırma ve yedek günlüklerinin tüm alanları için doğrulanmış tek bir saklama veya maskeleme süresi bulunmamaktadır.</p>
 <p>Destek adresine e-posta gönderirseniz e-posta adresiniz, mesajınız ve gönüllü eklediğiniz bilgiler talebinizi yanıtlamak için işlenir. Şifre, tam kart bilgisi veya gereksiz hassas veri göndermeyin. E-posta hizmetinin kendi gizlilik koşulları da geçerlidir.</p>
-
 <h2>4. Amaçlar ve hukuki dayanak</h2>
-<p>Bilgiler, ilgili özelliğe göre oyunu ve tercihleri sürdürmek, talep ettiğiniz aktarımı yapmak, satın alma haklarını doğrulamak, ödülleri teslim etmek, suistimali önlemek ve destek taleplerini yanıtlamak için kullanılır. Etkin üçüncü taraf SDK'ları kendi açıklamalarında belirtilen teknik, güvenlik ve analiz amaçlarıyla da veri işleyebilir.</p>
+<p>Bilgiler, ilgili özelliğe göre oyunu ve tercihleri sürdürmek, talep ettiğiniz aktarımı yapmak, satın alma haklarını doğrulamak, ödülleri teslim etmek, suistimali önlemek ve destek taleplerini yanıtlamak için kullanılır. İlk Android sürümünde yeni satın alma doğrulama çağrıları kapalıdır; eski ödül kontrolü yalnızca kullanıcının isteğiyle yapılır. Etkin üçüncü taraf SDK'ları kendi açıklamalarında belirtilen teknik, güvenlik ve analiz amaçlarıyla da veri işleyebilir.</p>
 <p>Uygulanabilir hukuka göre işlemenin dayanağı; talep edilen hizmetin sunulması, yasal yükümlülükler, güvenlik ve kötüye kullanımı önleme bakımından meşru menfaat veya gerektiğinde açık rızadır. Rıza gereken işlemlerde rıza alınması gerekir; uygulamayı kullanmanız tek başına tüm veri işlemlerine toplu rıza sayılmaz.</p>
-
 <h2>5. Bilgilerin alıcıları ve yurt dışı işleme</h2>
 <p>İlgili SDK veya özellik çalıştığında veriler şu alıcılar tarafından işlenebilir:</p>
 <ul>
-<li>Google AdMob ve UMP: reklam SDK'sı teknik işlemleri, reklam sunumu, gizlilik tercihleri, ölçüm ve güvenlik.</li>
-<li>Google Play: mağaza işlemleri, ödeme, abonelik ve geri yükleme.</li>
-<li>RevenueCat: müşteri/ürün hakları, satın alma doğrulaması ve satın alma ile ilgili hizmetler.</li>
-<li>Backend ve veritabanı barındırma sağlayıcısı: ilgili sunucu özellikleri etkinleştirilirse teknik sunucu işleyişi ve ödül oturumları.</li>
+<li>Google AdMob ve UMP: reklam SDK'sı teknik işlemleri, reklam sunumu, gizlilik tercihleri, ölçüm ve güvenlik. İlk Android sürümünde uygulama kodundaki reklam ve UMP çağrıları kapalıdır; native başlangıç ve ağ davranışları cihazda doğrulanmamıştır.</li>
+<li>Google Play: mağaza işlemleri, ödeme, abonelik ve geri yükleme. İlk Android sürümünde uygulama içi satın alma ve geri yükleme çağrıları kapalıdır.</li>
+<li>RevenueCat: müşteri/ürün hakları, satın alma doğrulaması ve satın alma ile ilgili hizmetler. İlk Android sürümünde uygulama kodundaki RevenueCat yapılandırma ve sorgu çağrıları kapalıdır.</li>
+<li>Backend ve veritabanı barındırma sağlayıcısı: kullanıcı manuel eski ödül kontrolünü başlattığında mevcut kurulum kimliği, ödül işlem/tür bilgileri, teslim bildirimi ve teknik sunucu işleyişi. Mevcut geliştirme altyapısı Replit üzerinde Express ve PostgreSQL kullanır; bu, yayımlanmış bir üretim sunucusu bulunduğu veya her cihazın bu hizmete bağlandığı anlamına gelmez.</li>
 <li>E-posta hizmeti: yalnızca geliştiriciyle iletişime geçtiğinizde destek yazışmaları.</li>
 </ul>
 <p>Geliştiricinin incelenen kodunda verilerin satılmasına yönelik ayrı bir işlev veya başka pazarlama ağına aktarım entegrasyonu bulunmaz. Bu ifade, reklam SDK'sının kendi veri işlemesini veya farklı hukuk sistemlerindeki “paylaşım/satış” tanımlarını ortadan kaldırmaz.</p>
 <p>Bu hizmetler verileri Türkiye dışında da işleyebilir. Hizmet sağlayıcıların güncel politikaları ve uygulanabilir veri aktarımı şartları geçerlidir. Belirli bir ülkede saklama garantisi verilmez.</p>
-
 <h2>6. Saklama süreleri</h2>
 <ul>
-<li><strong>Yerel oyun verileri ve ilerleme:</strong> Oyun ilerlemesi, ayarlar ve cihazda tutulan diğer oyun kayıtları, uygulama verileri kullanıcı tarafından temizlenene veya uygulama kaldırılana kadar cihazda saklanır. Android yedekleme ve geri yükleme ayarları bazı verilerin yeniden yüklenmesine neden olabilir.</li>
+<li><strong>Yerel oyun verileri, ilerleme ve yaş bandı:</strong> Oyun ilerlemesi, ayarlar, seçilmiş yaş bandı ve cihazda tutulan diğer kayıtlar, uygulama verileri kullanıcı tarafından temizlenene veya kayıt kaldırılana kadar saklanabilir. Android yedekleme ve geri yükleme ayarları bazı verilerin yeniden yüklenmesine neden olabilir.</li>
 <li><strong>JSON dosyaları:</strong> Kullanıcının seçtiği özgün dosya uygulama dışında kalır. Uygulamanın geçici önbellek kopyaları işletim sisteminin önbellek yönetimine tabi olabilir; sabit bir otomatik silme süresi taahhüt edilmez.</li>
-<li><strong>Reklam ve ödül kayıtları:</strong> İlk Android sürümünde reklam gösterimi ve ödüllü reklam özellikleri devre dışıdır. Bu özellikler kullanıcıya sunulan akış üzerinden başlatılmaz. Projede bulunan sunucu tarafı reklam ödülü altyapısı, ileride etkinleştirilirse ayrı saklama ve silme kuralları belirlenerek kullanıma açılmalıdır.</li>
-<li><strong>Satın alma kayıtları:</strong> İlk Android sürümünde gerçek para ile uygulama içi satın alma işlemleri devre dışıdır. RevenueCat ve Google Play SDK'larının teknik işlemleri, etkinleştirilmiş yapılandırmaya ve ilgili sağlayıcıların saklama/silme süreçlerine tabi olabilir.</li>
+<li><strong>Reklam ve ödül kayıtları:</strong> İlk Android sürümünde yeni reklam ve ödül oturumları oluşturulmaz; daha önce doğrulanmış ödüllerin manuel kontrolü ve teslim bildirimi mümkündür. Mevcut sunucu kodunda ödül kayıtları için süreye bağlı otomatik silme görevi bulunmamaktadır. Belirlenmiş ve doğrulanmış bir azami saklama süresi bu incelemede bulunmamaktadır; bir oturumun geçerlilik süresi veri silme süresi sayılmaz. Yerel işlem geçmişi aynı ödülün tekrar verilmesini önlemek için kullanılır.</li>
+<li><strong>Satın alma kayıtları:</strong> İlk Android sürümünde uygulama kodundaki RevenueCat ve gerçek para ile satın alma çağrıları devre dışıdır. Önceden mevcut olabilecek RevenueCat ve Google Play kayıtları ile sağlayıcıların teknik kayıtları, ilgili sağlayıcıların saklama/silme süreçlerine tabi olabilir. Yerel veriyi temizlemek bu kayıtları kendiliğinden silmez.</li>
 <li><strong>Sunucu günlükleri ve yedekler:</strong> Mevcut incelemede tüm barındırma, hata ve yedek günlükleri için doğrulanmış sabit bir otomatik silme süresi bulunmamaktadır. Bu nedenle belirli bir gün sayısı veya otomatik silme garantisi verilmez.</li>
-<li><strong>Destek yazışmaları:</strong> E-posta yoluyla iletilen bilgiler, talebi yanıtlamak ve gerekli kayıtları tutmak için ihtiyaç duyulan süre boyunca e-posta hizmetinde saklanabilir.</li>
+<li><strong>Destek yazışmaları:</strong> E-posta yoluyla iletilen bilgiler, talebi yanıtlamak ve gerekli kayıtları tutmak için ihtiyaç duyulan süre boyunca e-posta hizmetinde saklanabilir. Doğrulanmış sabit bir otomatik silme süresi bu metinde taahhüt edilmez.</li>
 </ul>
 <p>Üçüncü taraf sağlayıcıların kendi sistemlerinde tuttukları kayıtlar, cihazdaki uygulama verisini temizlemekle otomatik olarak silinmez. Sağlayıcıların kendi saklama politikaları ve yasal yükümlülükleri geçerlidir.</p>
-
 <h2>7. Silme, erişim ve tercihlerin yönetimi</h2>
-<p>Yerel oyun verisini kaldırmak için Android'in uygulama ayarlarından PawDoku Puzzle → Depolama → Verileri temizle yolunu kullanabilirsiniz; menü adı cihaza göre değişebilir. Bu işlem ilerleme, seçimler ve yerel kayıtları kaybettirebilir. Uygulamayı kaldırmanın ardından işletim sistemi yedeğinden geri yükleme yapılması verileri geri getirebilir. Özgün JSON dosyalarını ve varsa bulut kopyalarını ayrıca silebilirsiniz.</p>
-<p>Sunucu veya üçüncü taraf sağlayıcı kayıtlarına ilişkin erişim ya da silme talebinizi <a href="mailto:magunacimert.mm@gmail.com">magunacimert.mm@gmail.com</a> adresine gönderebilirsiniz. Mevcut uygulamada otomatik sunucu verisi silme düğmesi veya kullanıcıya gösterilen kurulum/RevenueCat kimliği ekranı bulunmayabilir. Talebin doğru kayıtla eşleştirilmesi için yalnızca gerekli teknik bilgi istenebilir.</p>
-<p>E-posta ile talep iletilmesi, tüm sağlayıcılardaki kayıtların anında silindiği anlamına gelmez. Talepler, kimlik ve kayıt eşleştirmesi yapılabildiği ölçüde ve uygulanabilir yasal süre/koşullara göre değerlendirilir. Sağlayıcıların kendi sistemlerinde tuttuğu kayıtlar için ilgili sağlayıcının araçları veya destek kanalları gerekebilir.</p>
+<p>Yerel oyun verisini kaldırmak için Android'in uygulama ayarlarından PawDoku Puzzle → Depolama → Verileri temizle yolunu kullanabilirsiniz; menü adı cihaza göre değişebilir. Bu işlem ilerleme, yaş tercihi, seçimler, ipucu bakiyesi, yerel ödül kimliği ve işlem geçmişi dahil yerel kayıtları kaybettirebilir. Uygulamayı kaldırmanın ardından işletim sistemi yedeğinden geri yükleme yapılması verileri geri getirebilir. Özgün JSON dosyalarını ve varsa bulut kopyalarını ayrıca silebilirsiniz.</p>
+<p>Sunucu veya üçüncü taraf sağlayıcı kayıtlarına ilişkin erişim ya da silme talebinizi <a href="mailto:magunacimert.mm@gmail.com">magunacimert.mm@gmail.com</a> adresine gönderebilirsiniz. İncelenen uygulamada otomatik sunucu verisi silme düğmesi veya kullanıcıya gösterilen kurulum/RevenueCat kimliği ekranı bulunmaz. Talebin doğru kayıtla eşleştirilmesi için yalnızca gerekli teknik bilgi istenebilir. Kurulum kimliği kaybedilmişse kayıtların güvenilir biçimde eşleştirilmesi mümkün olmayabilir.</p>
+<p>E-posta ile talep iletilmesi, tüm sağlayıcılardaki kayıtların anında silindiği anlamına gelmez. Talepler, kimlik ve kayıt eşleştirmesi yapılabildiği ölçüde ve uygulanabilir yasal süre/koşullara göre değerlendirilir. Sağlayıcıların kendi sistemlerinde tuttuğu kayıtlar için ilgili sağlayıcının araçları veya destek kanalları gerekebilir. Bu metin, doğrulanmamış bir otomatik silme veya yedeklerden silme takvimi taahhüt etmez.</p>
 <p>Uygulama verisini veya RevenueCat kaydını silmek Google Play aboneliğini iptal etmez. Abonelik yönetimi ve iptali Google Play üzerinden yapılır.</p>
 <p>Uygulanabilir hukuka göre bilgi edinme, erişim, düzeltme, silme, işlemeye itiraz, rızayı geri çekme ve yetkili veri koruma merciine başvurma haklarınız bulunabilir. Talepler ilgili yasal süre ve koşullara göre değerlendirilir.</p>
-
 <h2>8. Güvenlik</h2>
 <p>Yerel kayıtlar AsyncStorage kullanır; bu, uygulama düzeyinde özel bir kayıt şifreleme mekanizması değildir. Cihaz kilidi ve işletim sisteminin uygulama yalıtımı önemlidir. JSON dosyaları düz metin olabilir.</p>
 <p>Projede sunucu tarafı reklam ödülü doğrulama kodu bulunması, gerçek üretim ortamında tüm güvenlik kontrollerinin etkin ve başarılı olduğu anlamına gelmez. Hiçbir sistem için mutlak güvenlik garantisi verilemez.</p>
-
 <h2>9. Çocukların gizliliği</h2>
-<p>Uygulama yaş veya doğum tarihi toplamaz. Bu, kullanıcıların yaşının doğrulandığı anlamına gelmez. Uygulamanın hedef kitle ve yaş grubu seçimi Google Play Console'da ayrıca beyan edilir. Uygulama çocuklara da sunulacaksa Google Play Families koşulları, reklam SDK'larının uygunluğu, yaşa ilişkin reklam ayarları ve gerekli rıza mekanizmaları yayına alınmadan önce doğrulanmalıdır. UMP entegrasyonu tek başına çocuklara uygunluk sağlamaz.</p>
-<p>Çocukların gizliliğiyle ilgili sorularınız için <a href="mailto:magunacimert.mm@gmail.com">magunacimert.mm@gmail.com</a> adresinden iletişime geçebilirsiniz.</p>
-
+<p>PawDoku Puzzle'ın hedef kitlesi çocuklar ve yetişkinler dahil her yaş olarak planlanmıştır. Google Play Console'daki hedef kitle ve yaş grubu beyanının bu plan ve yayımlanacak gerçek sürümle uyumlu olması ayrıca doğrulanmalıdır.</p>
+<p>Uygulamada yaş bandı ekranı bulunur. Seçenekler “12 yaş ve altı”, “13–15”, “16–17”, “18 ve üzeri” ve “Belirtmek istemiyorum” şeklindedir. Kullanıcı yaş belirtmeden de oyuna devam edebilir. Kaydedilen tercih yalnızca cihazdaki ayrı yaş bandı kaydında tutulur; doğum tarihi veya kimlik belgesi istenmez. “Belirtmek istemiyorum” seçimi UNKNOWN olarak saklanır; yaş kaydı bozuksa veya okunamıyorsa yaş UNKNOWN kabul edilir. Yaş bandı sunucuya, AdMob/UMP'ye veya RevenueCat'e gönderilmez.</p>
+<p>Yaş bandı kullanıcının beyanıdır; kimlik, yaş veya ebeveyn doğrulaması ve ebeveyn izni değildir. İlk Android sürümünde reklamlar ve satın alma işlemleri tüm kullanıcılar için uygulama kodundan kapalıdır. Bu durum native SDK'ların hiç veri işlemediğini veya COPPA, GDPR ya da Google Play Families kurallarına kesin uygunluk sağlandığını göstermez. Native başlangıç ve ağ davranışları, çocuklara ilişkin veri işlemenin hukuki dayanakları ve uygulanabilir ek gereklilikler ayrıca doğrulanmalıdır. UMP entegrasyonu tek başına çocuklara uygunluk veya ebeveyn izni sağlamaz.</p>
+<p>Ebeveynler ve yasal temsilciler, çocukların gizliliğiyle ilgili sorularını ve erişim/silme taleplerini <a href="mailto:magunacimert.mm@gmail.com">magunacimert.mm@gmail.com</a> adresine iletebilir. Bu iletişim yolu, uygulanmış ve doğrulanmış bir ebeveyn doğrulama/izin sistemi veya tüm kayıtlarda otomatik silme süreci bulunduğu anlamına gelmez. Eski ödüllerin manuel kontrolünde kurulum kimliği ve sunucu iletişimi kullanılabileceği 3.5. bölümde açıklanmıştır; çocuk ve ebeveyn taleplerinin doğru kayıtla eşleştirilmesi ile uygulanabilir korumalar ayrıca değerlendirilmelidir.</p>
 <h2>10. Politika değişiklikleri</h2>
-<p>Uygulamanın özellikleri veya veri işleme uygulamaları değişirse bu politika güncellenir. Güncel sürüm bu web sayfasında yayımlanır. Önemli değişikliklerde, uygun olduğu ölçüde uygulama veya mağaza açıklamaları üzerinden bilgilendirme yapılabilir.</p>
-
+<p>Gizlilik politikası GitHub Pages üzerinden <a href="https://magunacimert.github.io/pawdoku-privacy-policy/">https://magunacimert.github.io/pawdoku-privacy-policy/</a> adresinde yayımlanmıştır. Yerel olarak hazırlanan bir güncelleme, ayrıca yayımlanmadıkça bu adresteki mevcut metni değiştirmez. Uygulamanın özellikleri veya veri işleme uygulamaları değişirse politika güncellenir; yayımdaki metin ile uygulamanın gerçek davranışı uyumlu tutulmalıdır. Önemli değişikliklerde, uygun olduğu ölçüde uygulama veya mağaza açıklamaları üzerinden bilgilendirme yapılabilir.</p>
 <h2>11. İlgili sağlayıcı belgeleri</h2>
 <ul>
 <li><a href="https://policies.google.com/privacy">Google Gizlilik Politikası</a></li>
@@ -130,7 +120,7 @@
 <li><a href="https://www.revenuecat.com/privacy">RevenueCat Gizlilik Politikası</a></li>
 <li><a href="https://support.google.com/googleplay/android-developer/answer/10144311">Google Play kullanıcı verileri ve gizlilik politikası gereklilikleri</a></li>
 </ul>
-<p class="notice"><strong>Not:</strong> Bu politika Google Play Veri Güvenliği formunun yerine geçmez. Google Play formu, yayımlanacak gerçek uygulama sürümünün tüm SDK ve sunucu davranışlarıyla ayrıca eşleştirilmelidir.</p>
+<p><strong>Not:</strong> Bu politika Google Play Veri Güvenliği formunun yerine geçmez. Google Play formu, yayımlanacak gerçek uygulama sürümünün tüm SDK ve sunucu davranışlarıyla ayrıca eşleştirilmelidir. Bu belge COPPA, GDPR veya Google Play Families uyumluluğuna ilişkin hukuki garanti vermez.</p>
 </main>
 </body>
 </html>
